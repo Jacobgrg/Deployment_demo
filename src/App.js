@@ -24,15 +24,16 @@ function App() {
                     <center>
                     {/* <p style={{color:"Black"}}>WELCOME TO  MY PORTFOLIO</p> */}
                     <p className='pkmn-text'>WELCOME TO  MY PORTFOLIO</p>
-                    <div className='option'>
-                    <p className='pkmn-text'><button className='button'>Education</button></p>
-                    <p className='pkmn-text'><button className='button'>Resume</button></p>
-                    <p className='pkmn-text'><button className='button'>Skills</button></p>
-                    <p className='pkmn-text'><button className='button'>Contacts</button></p>
-                    </div>
+                    {/* <div className='option'> */}
+                    <p ><button className='button'>Education</button></p>
+                    <p ><button className='button'>Resume</button></p>
+                    <p ><button className='button'>Skills</button></p>
+                    <p ><button className='button'>Contacts</button></p>
+                    {/* </div> */}
                         
                     </center>
                         
+
                 </div>
                 </div>
                
