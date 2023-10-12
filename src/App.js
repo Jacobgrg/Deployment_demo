@@ -85,6 +85,7 @@ function App() {
                     </a>
                     </center>
                   </div>
+                  
                 )}
               </Popup>
             </p>
@@ -137,9 +138,10 @@ function App() {
                         nested
                       >
                         {(close) => (
-                          <div className="pkmn-text">
-                            <center>Jacobgurung@gmail.com</center>
-                          </div>
+                          <div className="normal">
+                            <center><p>jacobgurung@gmail.com</p></center></div>
+                         
+                         
                         )}
                       </Popup>
                     </center>

@@ -97,8 +97,16 @@
   }
 
   .normal{
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
+    letter-spacing: 2.5px;
+    font-size: 8px;
+    border: 6px double black;
+    padding: 3px 10px;
+    margin: 10px 10px 25px 10px;
+    border-radius: 5px;
+    background:white;
+    line-height: 1.8;
+    width: auto;
+  
     
   }
 
@@ -112,15 +120,4 @@
     background:white;
     line-height: 1.8;
     
-}
-
-@media only screen and (max-width: 414px){
-  .normal{
-    visibility: collapse;
-  }
-
-  .phoneversion{
-    visibility: visible;
-
-  }
 }
