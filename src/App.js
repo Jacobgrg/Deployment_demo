@@ -2,53 +2,17 @@ import React from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 
-
-
-// import BgAudio from 'react-native-background-audio'
-
-
-
-
-
-// import sound from ",/Components/pokemon_center_hgss.mp3"
-
 import { loadFull } from "tsparticles";
 import "./App.css";
 import Particle from "./Components/particles";
 import "./Components/pokemon.css";
-// import source from "react-sound"
 
 import "./Components/Modal.css";
-const audio_options = {
-  source:{local: require('./Components/pokemon_center_hgss.mp3')}  //ex. require('./music/sample.mp3')
-}
-
-
-
 
 const csv_url =
-  "https://idyllic-faloodeh-476f84.netlify.app/GurungJacob.docx"
+  "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
 
-
-
-  
-
-  function App() {
-
-    
-
-
-
-    
-
-  // function play() {
-  //   new Audio(sound).play
-  // }
-
-
-
-
-
+function App() {
   const downloadFileURL = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -80,7 +44,6 @@ const csv_url =
 
   return (
     <body>
-       {/* <BgAudio options={audio_options}></BgAudio> */}
       <div className="App">
         <Particle />
       </div>
@@ -169,7 +132,6 @@ const csv_url =
                           <img
                             src={require("./Components/Mail.png")}
                             height={100}
-                            
                           />
                         }
                         modal
