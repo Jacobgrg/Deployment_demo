@@ -10,7 +10,8 @@ import "./Components/pokemon.css";
 import "./Components/Modal.css";
 
 const csv_url =
-  "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
+  // "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
+   "https://jacobgurung.com/Gurung,Jacob Riyoja.docx";
 
 function App() {
   const downloadFileURL = (url) => {
