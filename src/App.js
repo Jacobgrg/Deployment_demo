@@ -9,8 +9,8 @@ import "./Components/pokemon.css";
 
 import "./Components/Modal.css";
  // "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
-const csv_url =
-"https://jacobgurung.com/Gurung,Jacob Riyoja.docx";
+// const csv_url =
+// "https://jacobgurung.com/Gurung,Jacob Riyoja.docx";
 
 function App() {
   const downloadFileURL = (url) => {
@@ -95,7 +95,7 @@ function App() {
               <button
                 className="button"
                 onClick={() => {
-                  downloadFileURL(csv_url);
+                  downloadFileURL("https://jacobgurung.com/GurungJacob.docx");
                 }}
               >
                 Resume
