@@ -11,7 +11,7 @@ import "./Components/Modal.css";
 // "https://jacobgurung.com/Gurung,Jacob Riyoja.docx";
  // "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
 const csv_url =
- "https://jacobgurung.netlify.app/Gurung,Jacob Riyoja.docx";
+ "https://jacobgurung.com/GurungJacob.docx";
 
 function App() {
   const downloadFileURL = (url) => {
