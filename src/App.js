@@ -11,7 +11,8 @@ import "./Components/Modal.css";
 // "https://jacobgurung.com/Gurung,Jacob Riyoja.docx";
  // "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
 const csv_url =
- "https://jacobgurung.com/Gurung.docx";
+ "https://idyllic-faloodeh-476f84.netlify.app/Gurung,Jacob Riyoja.docx";
+//  "https://idyllic-faloodeh-476f84.netlify.app/Gurung.docx";
 
 function App() {
   const downloadFileURL = (url) => {
@@ -23,6 +24,16 @@ function App() {
     aTag.click();
     aTag.remove();
   };
+
+  const onButtonClick = () => {
+    const pdfUrl = "GurungJacob.docx";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "GurungJacob.docx"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
 
   const modal = document.querySelector("#modal");
   const openModal = document.querySelector("#openModal");
@@ -93,14 +104,18 @@ function App() {
 
             {/* This part is for the Resume section */}
             <p>
-              <button
+            <button className="button"
+            onClick={onButtonClick}>
+                    Resume
+                </button>
+              {/* <button
                 className="button"
                 onClick={() => {
                    downloadFileURL(csv_url);
                 }}
               >
                 Resume
-              </button>
+              </button> */}
             </p>
 
             {/* This part for Projects */}
